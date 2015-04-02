@@ -1,0 +1,27 @@
+{
+    "name": "thujohn/twitter",
+    "description": "Twitter API for Laravel 5",
+	"keywords": ["twitter", "laravel", "laravel5"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thujohn",
+            "email": "jonathan.thuau@gmail.com"
+        },
+        {
+            "name": "mikevrind",
+            "email": "mikevrind@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*",
+        "themattharris/tmhoauth": "~0.8.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Thujohn\\Twitter": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
